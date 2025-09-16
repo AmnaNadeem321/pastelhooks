@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb6b9;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: larger;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+.products {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* slightly bigger */
+  gap: 1.5rem; /* more breathing space */
+  height: 150px;
+}
+
+.item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 450px; /* pooray box ki height ko control karay ga */
+}
+
+.item img {
+  width: 100%;
+  height: 75%; /* takes 70% of box height */
+  object-fit: cover;
+  display: block;
+}
+
+.item .info {
+  flex: 1; /* take remaining space */
+  padding: 0.5rem 1rem;
+}
+.item:hover {
+      transform: scale(1.5rem);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <section class="products">
+    <div class="item">
+    <img src="img/gajra.png">
+    <div class="info">
+    <h3>Blossom Grace Gajra</h3>
+    <p>Add timeless beauty to your style with delicate handmade blooms.</p>
+  </div>
+    </div>
+
+
+    <div class="item">
+      <img src="img/keychain.png" alt="">
+      <div class="info">
+    <h3>Golden Bloom Keychain</h3>
+    <p>Carry sunshine wherever you go with this radiant sunflower charm.</p>
+  </div>
+    </div>
+
+
+    <div class="item">
+      <img src="img/whitebag.png" alt="">
+      <div class="info">
+    <h3>Pure Elegance Ribbon Bag</h3>
+    <p>A graceful blend of simplicity and charm, perfect for every outing.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/shoes.jpg" alt="">
+      <div class="info">
+    <h3>Little Bloom Booties</h3>
+    <p>A tender touch of love, made to keep tiny feet cozy and cute.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/gajrayy.png" alt="">
+      <div class="info">
+    <h3>Crimson Glow Gajra</h3>
+    <p>Classic floral beauty that brings warmth and tradition to every look.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/pinkbag.png" alt="">
+      <div class="info">
+    <h3>Pink Ribbon Bag</h3>
+    <p>A soft hand-crocheted pink bag decorated with a satin ribbon bow.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/redshoe.png" alt="">
+      <div class="info">
+    <h3>Red Crochet Shoes</h3>
+    <p>A cute red-and-white crochet shoe set with a matching headband.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/mittens.png" alt="">
+      <div class="info">
+    <h3>Sunshine Mittens</h3>
+    <p>Cozy crochet mittens with a bright, cheerful touch.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/shoe.png" alt="">
+      <div class="info">
+    <h3>Rainbow Baby Booties</h3>
+    <p>Soft and colorful crochet booties to keep tiny feet warm and happy.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/sunflower.png" alt="">
+      <div class="info">
+    <h3>Golden Bloom Sunflower</h3>
+    <p>A radiant crochet sunflower that brings sunshine to every corner.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/redbagg.png" alt="">
+      <div class="info">
+    <h3>Crimson Bloom Bag</h3>
+    <p>A bold red crochet bag designed for standout style.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/yellowbag.png" alt="">
+      <div class="info">
+    <h3>Sunny Bloom Bag</h3>
+    <p>A cheerful yellow crochet bag that brightens any outfit </p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/peachbag.png" alt="">
+      <div class="info">
+    <h3>Peach Blossom Bag</h3>
+    <p>A soft peach crochet bag adorned with a delicate flower motif.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/pinkybag.png" alt="">
+      <div class="info">
+    <h3>Pink Daisy Bag</h3>
+    <p>A sweet pink crochet bag adorned with a cute daisy in the center.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/purplebag.png" alt="">
+      <div class="info">
+    <h3>Light Purple Daisy Bag</h3>
+    <p>A soft light purple crochet bag with a delicate daisy accent.</p>
+  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/bluebag.png" alt="">
+      <div class="info">
+    <h3>Sky Blue Daisy Bag</h3>
+    <p>A refreshing sky blue crochet bag with a charming daisy detail.</p>
+  </div>
+    </div>
+    
+    <!-- You can add more products items here -->
+  </section>
+</body>
+</html>
